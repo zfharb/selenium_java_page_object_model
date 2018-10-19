@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="smoke">
+	
+	<parameter name="appURL" value="http://test.blueprint.kaplan.edu/#/"/>
+	<parameter name="browserType" value="chrome"/>
+  	<parameter name="userName" value=""/> 
+  	<parameter name="password" value=""/>
+  	
+  	<test name="smoke">
+    	<classes>
+      		<class name="smoke.LoginTest"/>
+    	</classes>
+  	</test>
+  
+</suite>
+

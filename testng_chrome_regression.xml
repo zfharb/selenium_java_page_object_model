@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="regression">
+	<parameter name="appURL" value="http://test.blueprint.kaplan.edu/"/>
+  	<parameter name="browserType" value="chrome"/>
+  	<parameter name="userName" value=""/> 
+  	<parameter name="password" value=""/>
+  	  	  	
+  	<test name="regression">
+    	<classes> 
+    		
+    	
+    	<!-- 
+      	 -->
+      	 
+      	   	<class name="regression.CreditEvaluationPageTest"/>
+    		<class name="regression.CampusManagerPageTest"/>
+      		<class name="regression.DegreeProgramManagerPageTest"/>
+      	    <class name="regression.CourseModulePageTest"/>   	
+       	    <class name="regression.EquivalencyAdminPageTest"/>   	
+      	    
+    	</classes>
+  	</test>
+</suite>
